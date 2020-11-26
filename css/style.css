@@ -32,13 +32,15 @@ body{
   flex: 1 1 auto;
 }
 .header{
-    background: url(../img/Ellipse\ 6.svg)0 0/auto no-repeat,url(../img/Group\ 62.svg) right/ 584px 900px no-repeat;
+    background: url(../img/phone.png)81% 70% no-repeat,url(../img/Ellipse\ 6.svg)0 0/auto no-repeat,url(../img/Group\ 62.svg) right/ 584px 900px no-repeat;
 height: 900px;
 }
 .header__row{
     max-width: 1184px;
     margin: 0 auto;
     padding-top: 27px;
+    display: flex;
+    flex-direction: column;
 }
 .nav__row{
     display: flex;
@@ -87,4 +89,46 @@ summary{
 }
 .nav__language{
     margin-right: 75px;
+}
+.intro{
+    padding-top: 180px;
+}
+.intro__title{
+    font-weight: 500;
+font-size: 52px;
+line-height: 65px;
+text-transform: uppercase;
+color: #282735;
+padding-top: 40px;
+}
+.violet{
+  color: #6D69C9;
+}
+.intro__text{
+    font-size: 20px;
+    line-height: 25px;
+    color: #737373; 
+}
+.intro__btn{
+    width: 275px;
+    height: 61px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin-right: 25px;
+}
+.yellow{
+    background-color: #FFB83A;
+}
+.purple{
+    background: #6D69C9;
+}
+.intro__buttons{
+    display: flex;
+    padding-top: 48px;
+}
+.intro__btn img{
+    padding-right: 10px;
 }
