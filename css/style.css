@@ -132,3 +132,125 @@ margin-right: 25px;
 .intro__btn img{
     padding-right: 10px;
 }
+
+/* About start */
+.about{
+    background: url(../img/Ellipse\ 7.svg)0 30% no-repeat, #E5E5E5;
+height: 966px;
+padding-top: 58px;
+}
+.about__row{
+    max-width: 1184px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.about__title{
+    font-weight: 500;
+font-size: 20px;
+line-height: 25px;
+color: #5D58B7;
+text-transform: uppercase;
+text-align: center;
+padding-bottom: 25px;
+}
+.about__text{
+    text-transform: uppercase;
+    font-weight: 500;
+font-size: 38px;
+line-height: 45px;
+color: #282735;
+text-align: center;
+padding-bottom: 30px;
+}
+.outline{
+    background: #FFE2AF;
+border-radius: 5px;
+width: auto;
+display: inline;
+}
+.about__elements{
+    display: flex;
+}
+.about__img{
+    width: 50%;
+}
+.about__items{
+ width: 50%;
+ display: flex;
+ flex-direction: column;
+}
+.about__item:first-child{
+    padding-top: 95px;
+}
+.about__item{
+    display: flex;
+    margin-bottom: 30px;
+}
+.item__info{
+    display: flex;
+    flex-direction: column;
+}
+.item__img{
+   
+border-radius: 10px;
+width: 74px;
+height: 74px;
+display: flex;
+justify-content: center;
+margin-right: 30px;
+}
+.swelled_purple{
+     background: #EDEAFF;
+}
+.light_yellow{
+    background: #FFF2DC;
+}
+.item__title{
+    font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+text-transform: uppercase;
+color: #282735;
+margin-bottom: 10px;
+}
+.item__text{
+    font-size: 16px;
+line-height: 19px;
+color: #737373;
+}
+.text__md{
+    width: 353px;
+}
+/* About end */
+/* figures start */
+.figures{
+    height: 252px;
+    background: url(..//img/Rectangle\ 12.svg)0 0 no-repeat;
+}
+.figures__row{
+    max-width: 1000px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.figures__item{
+    /* align-self:center;*/
+  padding-top: 80px;
+} 
+.figures__number{
+font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+color: #FFFFFF;
+margin-top: 18px;
+}
+.figures__text{
+    font-weight: 500;
+font-size: 20px;
+line-height: 27px;
+color: #FFFFFF;
+}
+/* figures end */
