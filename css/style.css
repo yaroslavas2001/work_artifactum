@@ -167,6 +167,12 @@ color: #282735;
 text-align: center;
 padding-bottom: 30px;
 }
+.about__text_mb{
+    display: none;
+}
+.about__items_mb{
+    display: none;
+}
 .outline{
     background: #FFE2AF;
 border-radius: 5px;
@@ -178,6 +184,7 @@ display: inline;
 }
 .about__img{
     width: 50%;
+    padding-left: 10px;
 }
 .about__items{
  width: 50%;
@@ -506,12 +513,86 @@ border-radius: 5px;
         text-align: center;
         text-transform: uppercase;
     }
-
+  
 }
 @media (max-width: 1150px) {
     .header{
-
         background: url(../img/Group\ 570.svg)85% 20% no-repeat,url(../img/Ellipse\ 6.svg)-15% 0/auto no-repeat,url(../img/Group\ 62.svg) 120% 0%/584px 713px no-repeat;
+    }
+    .about{
+        height: 1328px;
+        padding-top: 49px;
+        background: url(../img/Ellipse\ 7.svg)-50% 20%/80% no-repeat, #E5E5E5;
+    }
+    .about__elements{
+        flex-wrap: wrap;
+    }
+    .about__img{
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .about__img img{
+       height: 464px;
+    }
+    .about__items_mb{
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about__item:first-child{
+        padding-top: 70px;
+    }
+    .about__item{
+        margin-bottom: 15px;
+    }
+    .about__text_mb{
+        display: block;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 38px;
+        line-height: 45px;
+        color: #282735;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .about__text{
+        display: none;
+    }
+    .about__title{
+        padding-bottom: 5px;
+    }
+    .about__items{
+        display: none;
+    }
+    .figures{
+        height: 443px;
+        background: url(..//img/Rectangle\ 12.svg)40%/auto 100% no-repeat;
+    }
+    .figures__row{
+        flex-wrap: wrap;
+    }
+    .figures__item{
+        width: 50%;
+        padding-top: 70px;
+    }
+    .route{
+        height: 1242px;
+
+    }
+    .route__row{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .route__item{
+        width: 100%;
+        align-items: center;
+    }
+    .route__items{
+        width: 100%;
+       
     }
 }
 @media (max-width: 950px) {
