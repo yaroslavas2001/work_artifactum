@@ -11,3 +11,5 @@ while (count > 0) {
          console.log("No more " + word + " of beer on the wall.");
     }
 }
+// песня 
+

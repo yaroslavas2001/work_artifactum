@@ -58,19 +58,13 @@ height: 900px;
     max-width: 168px;
     justify-content: space-between;
 }
-details summary::-webkit-details-marker {
-    display: none;
-}
-summary{
-    display: flex;
-}
 .nav__link{
     font-weight: 500;
     font-style: normal;
     font-size: 15px;
     line-height: 12px;  
     color: #3B4844;
-    margin-right: 55px;
+    margin-right: 35px;
 }
 .nav__user{
     display: flex;
@@ -89,6 +83,13 @@ summary{
 }
 .nav__language{
     margin-right: 75px;
+    margin-left: 30px;
+}
+details summary::-webkit-details-marker {
+    display: none;
+}
+summary{
+    display: flex;
 }
 .intro{
     padding-top: 180px;
@@ -100,6 +101,9 @@ line-height: 65px;
 text-transform: uppercase;
 color: #282735;
 padding-top: 40px;
+}
+.intro_md{
+    display: none;
 }
 .violet{
   color: #6D69C9;
@@ -379,6 +383,9 @@ text-align:left;
 .textw390{
     width: 390px;
 }
+.textw560{
+    max-width: 560px;
+}
 /* artifact end */
 
 
@@ -409,9 +416,9 @@ text-align:left;
     box-shadow: 0px 22px 44px -12px rgba(249, 107, 92, 0.5);
 border-radius: 5px;
 }
-.footre__connection{
+/* .footre__connection{
 
-}
+} */
 .btn_yellow{
     display: flex;
 height: 47px;
@@ -430,3 +437,95 @@ border-radius: 5px;
     margin-right: 44px;
 }
 /*  */
+
+@media (max-width: 1850px) {
+
+.header{
+    background: url(../img/phone.png)81% 85% no-repeat,url(../img/Ellipse\ 6.svg)0 0/auto no-repeat,url(../img/Group\ 62.svg) 101% 100%/ 584px 900px no-repeat;
+}
+
+}
+@media (max-width: 1750px) {
+    
+}
+@media (max-width: 1650px) {
+    .header{
+        background: url(../img/phone.png)76% 85% no-repeat,url(../img/Ellipse\ 6.svg)0 0/auto no-repeat,url(../img/Group\ 62.svg) 101% 100%/ 584px 900px no-repeat;
+    }
+    .nav__logo{
+        padding-right: 70px;
+    }
+}
+@media (max-width: 1550px) {
+    .header{
+        background: url(../img/phone.png)84% 85% no-repeat,url(../img/Ellipse\ 6.svg)0 0/auto no-repeat,url(../img/Group\ 62.svg) 110% 100%/ 584px 900px no-repeat;
+    }
+}
+@media (max-width: 1350px) {
+    .header{
+        
+        background: url(../img/phone.png)85% 85% no-repeat,url(../img/Ellipse\ 6.svg)0 0/auto no-repeat,url(../img/Group\ 62.svg) 120% 100%/ 584px 900px no-repeat;
+    }
+}
+@media (max-width: 1250px) {
+    .header{
+        height: 1255px;
+        background: url(../img/Group\ 570.svg)85% 20% no-repeat,url(../img/Ellipse\ 6.svg)0 0/auto no-repeat,url(../img/Group\ 62.svg) 110% 0%/584px 713px no-repeat;
+    }
+  .header__row{
+      padding-left:35px;
+      padding-right: 25px;
+
+  }
+   .nav__menu{
+        display: none;
+    }
+    .nav__language{
+        display: none;
+    }
+    .nav__row{
+        justify-content: space-between;
+    }
+    .nav__btn{
+        padding-right: 30px;
+    }
+    .intro{
+        display: none;
+    }
+    .intro_md{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 717px;
+        text-align: center;
+    }
+    .intro__title_md{
+        font-weight: 500;
+        font-size: 52px;
+        line-height: 65px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+}
+@media (max-width: 1150px) {
+    .header{
+
+        background: url(../img/Group\ 570.svg)85% 20% no-repeat,url(../img/Ellipse\ 6.svg)-15% 0/auto no-repeat,url(../img/Group\ 62.svg) 120% 0%/584px 713px no-repeat;
+    }
+}
+@media (max-width: 950px) {
+    .header{
+        background: url(../img/Group\ 570.svg)75% 20% no-repeat,url(../img/Ellipse\ 6.svg)-25% 100%/auto no-repeat,url(../img/Group\ 62.svg) 120% 0%/584px 713px  no-repeat;
+    }
+}
+@media (max-width: 850px) {
+    .header{
+        background: url(../img/Group\ 570.svg)55% 20% no-repeat,url(../img/Ellipse\ 6.svg)-30% 100%/auto no-repeat,url(../img/Group\ 62.svg) 130% 0%/584px 713px  no-repeat;
+    }
+}
+@media (max-width: 800px) {
+    .header{
+        background: url(../img/Group\ 570.svg)45% 20% no-repeat,url(../img/Ellipse\ 6.svg)-35% 100%/auto no-repeat,url(../img/Group\ 62.svg) 140% 0%/584px 713px no-repeat;
+    }
+}
