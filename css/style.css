@@ -587,6 +587,9 @@ summary{
         padding-top: 717px;
         text-align: center;
     }
+    .intro__short__text{
+        display: none;
+    }
     .intro__title_md{
         font-weight: 500;
         font-size: 52px;
@@ -790,24 +793,125 @@ summary{
 @media (max-width: 750px) {
     .header{
         background: url(../img/Group\ 570.svg)45% 20%/90% no-repeat,url(../img/Ellipse\ 6.svg)-35% 100%/auto no-repeat,url(../img/Group\ 62.svg) 200% 0%/584px 713px no-repeat;
-        /*  url(../img/Group\ 570.svg)45% 20% no-repeat */
     }
 }
 @media (max-width: 700px) {
     .header{
-        background: url(../img/Group\ 570.svg)45% 20%/90% no-repeat,url(../img/Ellipse\ 6.svg)-35% 100%/auto no-repeat,url(../img/Group\ 62.svg)  300% 0%/584px 713px no-repeat;
-        /*  url(../img/Group\ 570.svg)45% 20% no-repeat */
+        background: url(../img/Group\ 570.svg)45% 20%/90% no-repeat,url(../img/Ellipse\ 6.svg)-40% 100%/auto no-repeat,url(../img/Group\ 62.svg)  300% 0%/584px 713px no-repeat;
     }
 }
 @media (max-width: 650px) {
     .header{
-        background: url(../img/Group\ 570.svg)40% 15%/90% no-repeat,url(../img/Ellipse\ 6.svg)-35% 100%/auto no-repeat,url(../img/Group\ 62.svg)460% 0%/584px 713px no-repeat;
-        /*  url(../img/Group\ 570.svg)45% 20% no-repeat */
+        background: url(../img/Group\ 570.svg)40% 15%/90% no-repeat,url(../img/Ellipse\ 6.svg)-50% 110%/auto no-repeat,url(../img/Group\ 62.svg)150% 0%/70% no-repeat;
+    }
+    .intro_md{
+        padding-top: 650px;
+    }
+    .header{
+        height: 1150px;
+    }
+    .intro__title_md{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .intro__short__text{
+        display: block;
+        margin-top: 20px;
+    }
+    .intro__long__text{
+        display: none;
+        
     }
 }
 @media (max-width: 600px) {
     .header{
-        background: url(../img/Group\ 570.svg)40% 15%/90% no-repeat,url(../img/Ellipse\ 6.svg)-35% 100%/auto no-repeat,url(../img/Group\ 62.svg)100% 0%/584px 713px no-repeat;
-        /*  url(../img/Group\ 570.svg)45% 20% no-repeat */
+        background: url(../img/Group\ 570.svg)40% 15%/90% no-repeat,url(../img/Ellipse\ 6.svg)-50% 100%/auto no-repeat,url(../img/Group\ 62.svg)140% 0%/65% no-repeat;
     }
+    .intro_md{
+        padding-top: 600px;
+    }
+    .header{
+        height: 1100px;
+    }
+    .buttons{
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+    .btn{
+        margin: 5px 0px;
+        width: 100%;
+    }
+}
+@media (max-width: 550px) {
+    .header{
+        background: url(../img/Group\ 570.svg)40% 15%/90% no-repeat,url(../img/Ellipse\ 6.svg)-70% 100%/auto no-repeat,url(../img/Group\ 62.svg)140% 0%/65% no-repeat;
+    }
+    .nav__logo{
+        padding-right: 60px;
+    }
+    .intro_md{
+        padding-top: 500px;
+    }
+    .header{
+        height: 1000px;
+    }
+}
+@media (max-width: 500px) {
+    .header{
+        background: url(../img/Group\ 570.svg)40% 15%/90% no-repeat,url(../img/Ellipse\ 6.svg)-100% 100%/auto no-repeat,url(../img/Group\ 62.svg)140% 0%/65% no-repeat;
+    }
+    .connection{
+        display: none;
+    }
+    .intro__title_md{
+        font-size: 35px;
+        line-height: 40px;
+    }
+}
+@media (max-width: 450px) {
+    .header{
+        background: url(../img/Group\ 570.svg)40% 15%/90% no-repeat,url(../img/Ellipse\ 6.svg)-150% 150%/auto no-repeat,url(../img/Group\ 62.svg)140% 0%/65% no-repeat;
+    }
+    .intro__title_md{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .intro_md{
+        padding-top: 400px;
+    }
+    .header{
+        height: 800px;
+    }
+}
+@media (max-width: 400px) {
+    .header{
+        background: url(../img/Group\ 570.svg)100% 15%/90% no-repeat,url(../img/Ellipse\ 6.svg)-200% 120%/auto no-repeat,url(../img/Group\ 62.svg)160% 0%/65% no-repeat;
+    }
+    .logo img{
+        width: 125px;
+        height: 25px;
+    }
+    .header__row{
+        padding: 10px 20px;
+    }
+    .intro_md{
+        padding-top: 380px;
+    }
+    .intro__title_md{
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
+@media (max-width: 350px) {
+    .header{
+        background: url(../img/Group\ 570.svg)100% 7%/90% no-repeat,url(../img/Ellipse\ 6.svg)-100% 100%/auto no-repeat,url(../img/Group\ 62.svg)160% 0%/65% no-repeat;
+    }
+    .logo img{
+        width: 125px;
+        height: 25px;
+    }
+    .header__row{
+        padding: 10px 20px;
+    }
+
 }
