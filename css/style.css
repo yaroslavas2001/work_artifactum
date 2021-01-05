@@ -704,7 +704,7 @@ summary{
         margin-bottom: 20px;
     }
     .column__text{
-    display: none;
+        display: none;
     }
     .column__text_mb{
         display: block;
@@ -773,7 +773,7 @@ summary{
         max-width: 410px;
     }
     .figures__item{
-      padding-top: 60px;
+        padding-top: 60px;
     } 
     .about{
         background: url(../img/Ellipse\ 7.svg)-30% 20%/60% no-repeat, #E5E5E5;
@@ -828,8 +828,7 @@ summary{
         margin-top: 20px;
     }
     .intro__long__text{
-        display: none;
-        
+        display: none;  
     }
 }
 @media (max-width: 600px) {
@@ -1066,7 +1065,6 @@ summary{
         font-size: 27px;
         margin-bottom: 30px;
     }
-    
 }
 @media (max-width: 300px) {
     .route__text_mb{
@@ -1130,7 +1128,9 @@ summary{
     .artifact{
         height: 630px;
     }
-
+    .route{
+        height: 1850px;
+    }
 }
 @media (max-width: 250px) {
     .route__title{
